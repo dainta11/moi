@@ -1,0 +1,320 @@
+
+/*Trang web  */
+.wrapper{
+	border: 1px solid #fff;
+    height: auto;
+    width: 85%;
+    margin: 0 auto;
+}
+
+/*Tiêu đề   */
+.header{
+    border: 1px solid #ff5622;
+    height: 120px;
+    width: 100%;
+    background: #ff5622;
+    margin: 2px;
+    border-radius: 10px;
+}
+
+/*Logo trang web  */
+.logo{
+    width: 15%;
+    margin: 10px;
+    float: left;
+}
+
+.timkiem{
+    margin-left: 10px;
+    width: 60%;
+    height: 100px;
+    margin: 10px;
+    float: left;
+    margin-left: 68px;
+}
+
+input[type="text"] {
+    margin-top: 20px;
+    width: 80%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+input[type="put"] {
+    margin-top: 20px;
+    width: 187%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+input[type="submit"] {
+    width: auto;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="doimatkhau"] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Menu chọn */
+.menu{
+	border: 4px solid #d71010;
+    height: 50px;
+    width: 100%;
+    background: #dd3333;
+    border-radius: 10px;
+}
+ul.list_menu {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    line-height: 27px;
+    list-style: none;
+}
+
+ul.list_menu li {
+    float: left;
+    margin: 5px;
+    padding: 5px;
+}
+
+ul.list_menu li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul.list_menu li a:hover {
+    color: #000;
+}
+
+ul.list_menu li[type="danhmuc"]{
+    margin-right: 225px;
+}
+
+ul.list_menu li[type="dangky"]{
+    float: right;
+    margin-right: 50px;
+}
+
+ul.baiviet {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+ul.baiviet li {
+   border:1px solid #ddd;
+   padding: 10px;
+}
+
+/*Nội dung chính trang web  */
+#main{
+	border: 1px solid #e6e6e6;
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+}
+.sidebar{
+	border: 1px solid #fff;
+    height: auto;
+    width: 18%;
+    border-radius: 10px;
+    float: left;
+    background: #eff0f3;
+}
+
+ul.list_sidebar {
+    padding: 0;
+    margin: 0;
+    line-height: 27px;
+    list-style: none;
+}
+
+ul.list_sidebar li {
+    border: 1px solid #ffffff;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: -webkit-center;
+}
+
+ul.list_sidebar li a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul.list_sidebar li a:hover {
+    color: #ff5622;
+}
+
+/* main trang */
+.maincontent{
+	border: 1px solid #e6e6e6;
+    height: auto;
+    width: 81%;
+    float: right;
+    border-radius: 10px;
+}
+
+h3 {
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;;
+    width: 100%;
+    font-size: 24px;
+    padding: 0 0 15px;
+    border-bottom: 1px
+    solid #eaeaea;
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    background-color: #42b315;
+    border-radius: 10px;
+}
+
+/* Hiển thị */
+i.fa.fa-plus.fa-style {
+    font-size: 20px;
+    color: #000;
+}
+i.fa.fa-minus.fa-style {
+    font-size: 20px;
+    color: #000;
+}
+i.fa.fa-plus.fa-style:hover {
+    color: brown;
+}
+i.fa.fa-minus.fa-style:hover {
+    color: brown;
+}
+
+/*Chi tiết sản phẩm */
+.wrapper_chitiet{
+    height: auto;
+    width: 90%;
+    margin:0 auto;
+}
+.hinhanh_sanpham{
+    float: left;
+    width: 30%;
+}
+.chitiet_sanpham{
+    float: left;
+    width: 49%;
+    margin:0 10px;
+}
+input.themgiohang {
+    border: none;
+    background: brown;
+    color: #fff;
+    padding: 12px;
+    font-size: 15px;
+    cursor: pointer;
+    width: 200px;
+}
+
+/* Sản phẩm */
+ul.product_list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border-radius: 10px;
+    width: 100%;
+}
+ul.product_list li img {
+    height: 190px;
+    border-radius: 10px;
+}
+ul.product_list li {
+    width: 19%;
+    margin: 30px;
+    border-radius: 10px;
+    float: left;
+    height: 350px;
+}
+ul.product_list li a {
+    text-decoration: none;
+}
+ul.product_list li img {
+    width: 100%;
+    border-radius: 10px;
+}
+p.price_product {
+    text-align: center;
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+}
+p.title_product {
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.clear{
+    clear: both;
+}
+
+/*Cuối trang web  */
+.footer{
+	border: 1px solid #000;
+    height: 100px;
+    width: 100%;
+    background-color: #000;
+    margin: 2px;
+    border-radius: 10px;
+}
+
+
+/* Tabs */
+.tabs {
+  width: 100%;
+  background-color: #00e6ac;
+  border-radius: 5px 5px 5px 5px;
+}
+ul#tabs-nav {
+  list-style: none;
+  margin: 0;
+  padding: 5px;
+  overflow: auto;
+}
+ul#tabs-nav li {
+  float: left;
+  font-weight: bold;
+  margin-right: 2px;
+  padding: 8px 10px;
+  border-radius: 5px 5px 5px 5px;
+  /*border: 1px solid #d5d5de;
+  border-bottom: none;*/
+  cursor: pointer;
+}
+ul#tabs-nav li:hover,
+ul#tabs-nav li.active {
+  background-color: #08E;
+}
+#tabs-nav li a {
+  text-decoration: none;
+  color: #FFF;
+}
+.tab-content {
+  padding: 10px;
+  border: 5px solid #00e6ac;
+  background-color: #FFF;
+}
